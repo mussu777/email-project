@@ -107,4 +107,3 @@ None required. This entry serves as the analytical baseline for the Email Threat
 
 ---
 
-*Report version: 1.0 · Analyst: Mustak · October 2026*

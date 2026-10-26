@@ -220,4 +220,3 @@ nslookup -type=TXT _dmarc.gmail.com
 
 ---
 
-*Document version: 1.0 · Analysis date: 09 October 2026*

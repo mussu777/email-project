@@ -137,5 +137,3 @@
 | `137.184.34.4` | IP | Email-02 | Medium | Neutral (Talos: Santa Clara, US / DigitalOcean) |
 
 ---
-
-*Document version: 1.0 · Analysis date: 10 October 2026*

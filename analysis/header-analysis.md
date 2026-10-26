@@ -158,4 +158,4 @@ All identity fields are internally consistent. The `Return-Path:` and `From:` sh
 
 ---
 
-*Document version: 1.0 · Analysis date: 08 October 2026*
+
