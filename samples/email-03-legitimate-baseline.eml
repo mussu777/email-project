@@ -1,0 +1,122 @@
+Delivered-To: mustak65ee@gmail.com
+Received: by 2002:a05:7010:3345:b0:533:988c:40e3 with SMTP id f5csp2703421mdd;
+        Mon, 05 Oct 2026 04:19:04 -0700 (PDT)
+X-Received: by 2002:a05:6402:1bcb:b0:6b1:497d:1c64 with SMTP id 4fb4d7f45d1cf-6b443004b28mr5579510a12.45.1793013544735;
+        Mon, 05 Oct 2026 04:19:04 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1793013544; cv=pass;
+        d=google.com; s=arc-20260327;
+        b=VmX76fB8e/Bet3MjfvUGGbzYeBsTdqbsVE4URBhBYz5qLTjUodRwgYH9RDvI2Vu3OG
+         695vF8nKV1CL8Byh8uzWlzJDMa8/18Z6hZrb3bY2/K8DcSiLbInEo1ucKz64YWtvsetj
+         0GZ+cHm85aLSHtlkgOTq/JABKwfUn1W6l3ajgjqOEanoMDw9lfNmK97bsXOqcM86jauA
+         1ewhxvB4/BVu+9ueY6sFH99yS35NVsftJKVoXZmIPHdmaEnCWpYU/hVjQKJ9MP7wI+Cc
+         HKY7mb/TtFrvRjrMe0jMlgoC+tW9r6oeEA3Zw1c0vNtNsNeJo0+X6Ddnryi5z42FyUcv
+         GSNQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=6aKHaF3FAGNXBGsXBxo+FKEy8K+EAyZcpfHzZnqk7OA=;
+        fh=CTB0PZv8TIjIaQ154wpczuCnpcAXsu5aDEfyoxDnFE4=;
+        b=KlCJ+47xCRocIZZLIcfHZCTK2sJM3GEGz9jtnQXqdP6uIMF9OCkSms0h8pSFnXbKrl
+         4h/zY5GE90RhlOOa29YHz+CKLFm3E2wXc4XQ5Bgman3mCD5i9HrX0SA6F86Avm82eO9V
+         C/rSq1sSKibIMVcNlRXqiVAtw2GvOISAY7zETBn46OHdTKRsuO7ENEZIOlI6Gl83Ua/U
+         jG2SmQM8aahEo1WsgCgv1hABBOYOUIt5pRGwRpV98aHX1IIBYdUtXekHvyUdlDfEn55u
+         RALilsHrE5TLn1KE9Vu4CnlGLc+7cZY9D2zo2RxhwLeO4knwCCYOvldWF97lfpFmaJO6
+         r0aA==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=mjCPQAWQ;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of reach.rakeshjru@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=reach.rakeshjru@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <reach.rakeshjru@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 4fb4d7f45d1cf-6b44599684bsor1077517a12.9.2026.10.05.04.19.04
+        for <mustak65ee@gmail.com>
+        (Google Transport Security);
+        Mon, 05 Oct 2026 04:19:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of reach.rakeshjru@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=mjCPQAWQ;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of reach.rakeshjru@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=reach.rakeshjru@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1793013544; cv=none;
+        d=google.com; s=arc-20260327;
+        b=NjDrhkiJAAWDscTklr5WsL2mvaEkweJ5VkfOU6loF9EUzx7eImoseE0sxby0JL9tU7
+         O4ug692RoWllamNMnSg37eV9EzYsL6k7dFnKJYor+3MZY5FtIpn1UPDTyMI6u8JqrkME
+         ZiyeCZkwQcd1/Te1YSTbhOTIRt8W9rOGKFa/ZwjK+AIYimPoaPW3a6sAuNwtcpM+Xomw
+         xnWLHxlJbHoMo1GXusFozoYk3tG+m0OjjCwVSO1tyZKrJs7rutd7dMDnc2E9znh9sRQr
+         6aN4oSlfIuKxo1G5xIAu83JIWqfrE/KsrwQ2AMF81tbgpuwGIxsKDt49/34oHvT3OBDQ
+         O7sg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=6aKHaF3FAGNXBGsXBxo+FKEy8K+EAyZcpfHzZnqk7OA=;
+        fh=CTB0PZv8TIjIaQ154wpczuCnpcAXsu5aDEfyoxDnFE4=;
+        b=Q2xJHUSYO3bnsMEgIfFGMlIRjjxABh8cf1A4MOwhgT3GQrvsh+ZRepV5isUqaCXNDj
+         8/AUso00gdrkQrAPuF4VNoi3UBSdoUqsi8twXXxy7Qewmk8DHm4J24CH0f6ajTSOLrNN
+         TWox+3gQBLCvzYaPoqsCbyxkuQdXn+aACJDL9lgNZ+LK3ulQfgyvrYpikJH6zdJHY3hY
+         Xz2/aFXLIVh8zbs67B0pxd50r4nPMaeHVmEcm2IKczpjJmbeKjQsOfrXJ9oIpmTYwt0K
+         Y3DAG6ATRD/2zqPkhSibIgdGCh9EU8D6OgwMeC//x5tSGGYuV4HXzsqnMHMRchwipmmO
+         m1qg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1793013544; x=1793618344; dara=google.com;
+        h=content-type:to:subject:message-id:date:from:mime-version:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=6aKHaF3FAGNXBGsXBxo+FKEy8K+EAyZcpfHzZnqk7OA=;
+        b=mjCPQAWQLqr0uKvDD6OU4hsFo/R0y2Z7lulOjQ1cAs1p/HmB94y7kQCL/Kel3nbvez
+         K5juwklmSYn0A/txLJ/606phjzy8dWv9ycSnjwnCMeCBqRUlakJVpVsIkDtkB6UOtgeh
+         FsV0hzEOZp8AVBXVAYK080orMGCUiqC/H/0i7c7vsxhAoS4S9Xu8Kjb1wgA3q5AkNDh/
+         K56aMLgmbwNFN20evE1fnht+OWcpwClU3f4AaaYcagLI2l8nxS4BajTYy+VtHzovF1y2
+         Ipbv8KYRHxfevOxqA7m5hKEVXXxqoekErao0vbgpD56syDU07MXfU1KzMRFUr9TfqiTl
+         BrhA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1793013544; x=1793618344;
+        h=content-type:to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=6aKHaF3FAGNXBGsXBxo+FKEy8K+EAyZcpfHzZnqk7OA=;
+        b=UgRM7vre+YwO+yjMCkaxyZ95X/2wZ5pGxoDPivba1AriPZcvKmWdVR+dPG54Qywges
+         wglTKIGiVcrEVahqxqUIKV/Eb2Lbon5C9rOe5JNu0W+pXkUYkVwvYUNqWdy0tIslqpmZ
+         dkSSZHVY2djRxM+rBDyk/x4vk3c+A1Wog0lAMN5bDQd+wiaTLFBd5vTq/NAcT9vuvtUm
+         2AacIWIUIvEtWbei5VeM1JqFLamlX2HvMhTv1fG3v7h7PO1/SUiXlO8qMUkZjXeESwsq
+         kj9UCkcW50e0aRfWm9Y64SWS0GgF10jMibigRBBSmcpVUzxSWCIZfvoZiORCAh5ALD/2
+         AvZQ==
+X-Gm-Message-State: AFq9FYIib3+KaIDIoJsDtW4oHRnYAI25s2thY+Qqd2m1C2BVU32mtZNN
+	PkS+rcKnj90whTzlqO7gHlO3ebK3rEQ+0CgCORqxpxZKPKpyAyXzkUbjTVcfIWQG3zDFCyH534U
+	hUb5olhYjOODuczX9+Mxap9NIUMgM0Mg/ew==
+X-Gm-Gg: AYBFou29f56usv/1UFPpZ7ajh4b/COT2mer32SBlXLxfZvucHWSDrsa/667PWm4aB6q
+	jdtrz9WSCpdH/Sgyk2eUXfIimDZNz6IEIT3ZecEbfv/0sBSnV00CUfdquM0stIQ8nDcZlkEmO2q
+	XLzTAZQCjj4g5ZA6gPUdDGkCQyYITZrPC4opOPZ65IE5VdOi9zixPkGxrwvTnFxsH5ht8i6H7hx
+	3iDVWBvf3R1XErW9kkQSjWPVeW3rGK10I/oOWvWNJdPzs4CXIrEXdx3ExClrdGPiTFUOYzPa8eJ
+	/3ylJLop60VsPoetBW++2qPIm8KpAsmK1ZewfNCiEYfchCx12dR09BJ5SiHdrSZ7CmB0OX1Tsc2
+	iMt10Fyq7ciQx3qQo826HpyRInPqbXqxrvQ==
+X-Received: by 2002:a05:6402:5191:b0:6b3:f036:5f4d with SMTP id
+ 4fb4d7f45d1cf-6b442fc7e52mr8371093a12.15.1793013544016; Mon, 05 Oct 2026
+ 04:19:04 -0700 (PDT)
+MIME-Version: 1.0
+From: Rakesh Mehta <reach.rakeshjru@gmail.com>
+Date: Mon, 05 Oct 2026 16:48:52 +0530
+X-Gm-Features: AclHuK-XB0UxY0WuXWK4WSGSL3ljGoY61AJ4ofG07N4NXlhggHSOKAO9nY4tqeE
+Message-ID: <CAD2TNP1L5g9nSgBCMxR-84F5Nj2cXS1sQjm8Kj1LW-AQ7geHxw@mail.gmail.com>
+Subject: Test
+To: "mustak65ee@gmail.com" <mustak65ee@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000005e5fa0065ebc7fa8"
+
+--0000000000005e5fa0065ebc7fa8
+Content-Type: text/plain; charset="UTF-8"
+
+Hello Musu,
+
+This is a test email.
+
+L
+
+--0000000000005e5fa0065ebc7fa8
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">Hello Musu,<br><br>This is a test email.<br><br>L</div>
+
+--0000000000005e5fa0065ebc7fa8--
