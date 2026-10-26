@@ -94,10 +94,4 @@ All phishing samples were sourced from the [`rf-peixoto/phishing_pot`](https://g
 
 ---
 
-## Disclaimer
 
-This repository is for educational and portfolio demonstration purposes. All investigated samples were obtained from public research repositories or benign communications. All suspicious URLs and email indicators are defanged using `hxxp` and `[.]` conventions.
-
----
-
-*Analyst: Mustak · October 2026*
