@@ -156,6 +156,5 @@ All identity fields are internally consistent. The `Return-Path:` and `From:` sh
 | Routing hops | 3 (1 external) | 3 (1 external) | 2 (all Google) |
 | Authentication results | See spf-dkim-dmarc-analysis.md | See spf-dkim-dmarc-analysis.md | See spf-dkim-dmarc-analysis.md |
 
----
 
 

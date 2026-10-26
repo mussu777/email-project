@@ -125,6 +125,6 @@ Authentication-Results: spf=none (sender IP is 89.144.44.2)
 | Talos Screenshot 1 | [`screenshots/email-01-ip-talos.png`](../screenshots/email-01-ip-talos.png) |
 | Talos Screenshot 2 | [`screenshots/email-01-ip-talos2.png`](../screenshots/email-01-ip-talos2.png) |
 
----
+
 
 

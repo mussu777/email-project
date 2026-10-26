@@ -105,5 +105,5 @@ None required. This entry serves as the analytical baseline for the Email Threat
 | Header Analysis | [`analysis/header-analysis.md`](../analysis/header-analysis.md) — Sample 03 |
 | SPF / DKIM / DMARC | [`analysis/spf-dkim-dmarc-analysis.md`](../analysis/spf-dkim-dmarc-analysis.md) — Email-03 |
 
----
+
 

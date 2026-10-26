@@ -218,5 +218,3 @@ nslookup -type=TXT _dmarc.gmail.com
 
 5. **Current DNS results ≠ DNS results at delivery.** The phishing domains (`thcultarfdes.co.uk`, `access-accsecurity.com`) are now defunct (NXDOMAIN). The authentication results embedded in the `.eml` headers are the evidence of what was evaluated at delivery — later DNS lookups supplement but cannot replace that record.
 
----
-

@@ -123,6 +123,6 @@ Authentication-Results: spf=temperror (sender IP is 137.184.34.4)
 | Talos Screenshot 1 | [`screenshots/email-02-ip-talos.png`](../screenshots/email-02-ip-talos.png) |
 | Talos Screenshot 2 | [`screenshots/email-02-ip-talos2.png`](../screenshots/email-02-ip-talos2.png) |
 
----
+
 
 

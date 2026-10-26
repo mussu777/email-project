@@ -136,4 +136,4 @@
 | `blog1seguimentmydomain2bra[.]me` | Domain/URL | Email-02 | High | Defunct (NXDOMAIN); fraudulent landing page |
 | `137.184.34.4` | IP | Email-02 | Medium | Neutral (Talos: Santa Clara, US / DigitalOcean) |
 
----
+
